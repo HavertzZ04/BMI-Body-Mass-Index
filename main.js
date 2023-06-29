@@ -1,5 +1,10 @@
-let btn = document.querySelector("#change");
+let form = document.querySelector("form");
+let nameI = document.querySelector("#name");
+let result = document.querySelector("#result");
 
-btn.addEventListener('click', function onClick(){
-    document.body.style.backgroundColor = 'salmon';
-})
+
+form.addEventListener('submit', function(e){
+    e.preventDefault();
+    result.textContent = nameI.value;
+    nameI.value = "";
+});

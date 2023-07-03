@@ -1,4 +1,36 @@
-body{
-    background-color: rgb(1, 1, 45);
+*{
+    margin: 0 auto;
+    padding: 0 auto;
     color: aliceblue;
+}
+
+#bmiBox{
+    height: 100vh
+}
+
+.container{
+    background-color: rgb(23, 34, 44);
+    border-radius: 0.5rem;
+}
+
+label, input{
+    margin: 2rem 0 0 0 !important;
+    border-radius: 0.2rem;
+    border: none;
+}
+
+input {
+
+}
+
+button{
+    margin: 1.5rem 0 0 0 !important;
+}
+
+#textBox {
+    background-color: rgb(85, 96, 105);
+    margin: 1.5rem 0 !important;
+    border-radius: 0.2rem;
+    border: none;
+    padding: 1.3rem 0rem;;
 }
